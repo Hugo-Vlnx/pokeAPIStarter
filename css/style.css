@@ -1,7 +1,12 @@
 :root {
     --green: rgba(61,122,107,1);
-  }
-main{
+}
+
+body {
+    background-color: rgb(119, 114, 145);
+}
+
+main {
     display:flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -9,51 +14,84 @@ main{
     padding: 5%;
 }
 
-article{
+header {
+    text-align: center;
+    padding: 20px;
+    color: white;
+}
+
+.type-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.type-btn {
+    background-color: rgb(64, 55, 106);
+    color: #fff;
+    border: 2px solid transparent;
+    border-radius: 5px;
+    padding: 8px 15px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.2s;
+}
+
+.type-btn:hover {
+    background-color: rgb(86, 75, 138);
+}
+
+.type-btn.active {
+    background-color: #fff;
+    color: rgb(64, 55, 106);
+    border: 2px solid rgb(64, 55, 106);
+}
+
+article {
     width: 350px;
     border-radius: 20px;
-    border: 10px solid grey;  /* #3d7a6bb3 */
+    border: 10px solid grey;
     background-color: grey;
     overflow: hidden;
     margin: 10px;
     -webkit-box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.74); 
     box-shadow: -1px 2px 13px 0px rgba(0,0,0,0.74); 
-    
 }
 
-picture{
+picture {
     display: block; 
     background-color: rgba(0,0,0,0.25);   
 }
 
-
-article img{
+article img {
     width: 80%;
     margin: auto;
     display: block;
 }
 
-figcaption{
-    background-color: rgba(255,255,255,0.5); /* #3d7a6b80 */
+figcaption {
+    background-color: rgba(255,255,255,0.5);
     position: relative;
 }
 
-ol{
+ol {
     list-style: none;
     margin: 0;
     padding: 15px
 }
 
-h2{
+h2 {
     text-align: center;
 }
 
-figure{
+figure {
     display: flex;
     flex-direction: column;
 }
 
-.types{
+.types {
     background-color: #000;
     color: #fff;
     padding : 5px 10px;

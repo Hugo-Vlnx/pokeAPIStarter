@@ -10,79 +10,41 @@
     <script src="./js/script.js" defer type="module"></script>
   </head>
   <body>
+    <header class="header">
+      <label for="generation-select">Choisissez une génération :</label>
+      <select id="generation-select">
+        <option value="1">nom</option>
+        <option value="2">Point de Vie</option>
+        <option value="3">Attaque</option>
+        <option value="4">Type</option>
+        <option value="5">Attaque Spéciale</option>
+        <option value="6">Défense</option>
+        <option value="7">Vitesse</option>
+      </select>
+      <p>Choisissez un ou plusieurs types :</p>
+      <div class="type-buttons">
+        <button class="type-btn active" data-type="all">Tous</button>
+        <button class="type-btn" data-type="grass">Plante</button>
+        <button class="type-btn" data-type="fire">Feu</button>
+        <button class="type-btn" data-type="water">Eau</button>
+        <button class="type-btn" data-type="poison">Poison</button>
+        <button class="type-btn" data-type="electric">Électrik</button>
+        <button class="type-btn" data-type="fairy">Fée</button>
+        <button class="type-btn" data-type="flying">Vol</button>
+        <button class="type-btn" data-type="bug">Insecte</button>
+        <button class="type-btn" data-type="ground">Sol</button>
+        <button class="type-btn" data-type="fighting">Combat</button>
+        <button class="type-btn" data-type="psychic">Psy</button>
+        <button class="type-btn" data-type="steel">Acier</button>
+        <button class="type-btn" data-type="rock">Roche</button>
+        <button class="type-btn" data-type="dark">Ténèbres</button>
+        <button class="type-btn" data-type="ghost">Spectre</button>
+        <button class="type-btn" data-type="ice">Glace</button>
+        <button class="type-btn" data-type="dragon">Dragon</button>
+        <button class="type-btn" data-type="normal">Normal</button>
+      </div>
+    </header>
     <main>
-      <article>
-        <figure>
-          <picture>
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="Image Bulbizarre" />
-          </picture>
-          <figcaption>
-            <span class="types">Plante</span>
-            <h2>Bulbizarre</h2>
-            <ol>
-              <li>Points de vie : 39</li>
-              <li>Attaque : 52</li>
-              <li>Défense : 43</li>
-              <li>Attaque spécial : 60</li>
-              <li>Vitesse : 65</li>
-            </ol>
-          </figcaption>
-        </figure>
-      </article>
-      <article>
-        <figure>
-          <picture>
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="Image Bulbizarre" />
-          </picture>
-          <figcaption>
-            <span class="types">Plante</span>
-            <h2>Bulbizarre</h2>
-            <ol>
-              <li>Points de vie : 39</li>
-              <li>Attaque : 52</li>
-              <li>Défense : 43</li>
-              <li>Attaque spécial : 60</li>
-              <li>Vitesse : 65</li>
-            </ol>
-          </figcaption>
-        </figure>
-      </article>
-      <article>
-        <figure>
-          <picture>
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="Image Bulbizarre" />
-          </picture>
-          <figcaption>
-            <span class="types">Plante</span>
-            <h2>Bulbizarre</h2>
-            <ol>
-              <li>Points de vie : 39</li>
-              <li>Attaque : 52</li>
-              <li>Défense : 43</li>
-              <li>Attaque spécial : 60</li>
-              <li>Vitesse : 65</li>
-            </ol>
-          </figcaption>
-        </figure>
-      </article>
-      <article>
-        <figure>
-          <picture>
-            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/official-artwork/1.png" alt="Image Bulbizarre" />
-          </picture>
-          <figcaption>
-            <span class="types">Plante</span>
-            <h2>Bulbizarre</h2>
-            <ol>
-              <li>Points de vie : 39</li>
-              <li>Attaque : 52</li>
-              <li>Défense : 43</li>
-              <li>Attaque spécial : 60</li>
-              <li>Vitesse : 65</li>
-            </ol>
-          </figcaption>
-        </figure>
-      </article>
     </main>
   </body>
 </html>
